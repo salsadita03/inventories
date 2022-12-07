@@ -1,6 +1,6 @@
 <?php 
     $qb = new lsp();
-    $dataB = $qb->select("detailbarang");
+    $dataB = $qb->select("table_detailbarang");
     if ($_SESSION['level'] != "Admin") {
     header("location:../index.php");
     }
